@@ -1,3 +1,6 @@
+import os
+os.environ["ULTRALYTICS_NO_CV2"] = "1"
+
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
